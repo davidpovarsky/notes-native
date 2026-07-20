@@ -1,0 +1,40 @@
+{
+  "id": "com.davwriter.default-tools",
+  "name": "Default Tools",
+  "version": 1,
+  "tools": [
+    {
+      "id": "wrap-parentheses",
+      "title": "עטוף בסוגריים",
+      "systemImage": "parentheses",
+      "action": "wrapSelection",
+      "prefix": "(",
+      "suffix": ")",
+      "template": null,
+      "search": null,
+      "replacement": null
+    },
+    {
+      "id": "wrap-hebrew-quotes",
+      "title": "עטוף במירכאות",
+      "systemImage": "quote.opening",
+      "action": "wrapSelection",
+      "prefix": "״",
+      "suffix": "״",
+      "template": null,
+      "search": null,
+      "replacement": null
+    },
+    {
+      "id": "insert-heading-template",
+      "title": "הכנס כותרת ותאריך",
+      "systemImage": "text.badge.plus",
+      "action": "insertTemplate",
+      "prefix": null,
+      "suffix": null,
+      "template": "\n{{title}}\n────────────\n",
+      "search": null,
+      "replacement": null
+    }
+  ]
+}
